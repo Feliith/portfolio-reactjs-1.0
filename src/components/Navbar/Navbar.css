@@ -1,0 +1,140 @@
+
+nav {
+    background: #000;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.nav-logo {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.nav-logo a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-contacts {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-contact {
+    background: #fff;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.nav-contact:hover {
+    transform: scale(.92);
+    opacity: .8;
+}
+
+.nav-number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+}
+
+.nav-number h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+i {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.nav-logo {
+    display: none;
+}
+
+.nav-burger {
+    display: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.nav-burger:hover, .side-close i:hover {
+    transform: scale(.92);
+}
+
+.nav-burger i {
+    color: #fff;
+    font-size: 38px;
+}
+
+.sidebar {
+    background: #000000ce;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    transition: .5s;
+}
+
+.sidebar.hide {
+    transform: translateY(-100%);
+}
+
+.side-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-close i {
+    color: #fff;
+    font-size: 46px;
+    position: absolute;
+    top: 16px;
+    right: 60px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        padding: 0 60px;
+    }
+    .nav-contacts, .nav-number {
+        display: none;
+    }
+    .nav-burger, .nav-logo {
+        display: block;
+    }
+}
