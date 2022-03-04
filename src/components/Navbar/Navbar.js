@@ -19,7 +19,7 @@ class Navbar extends Component {
                     <div className="nav-contacts">
                         {Social.map((item, index) => {
                             return (
-                                <a href={item.url} target="_blank" className={item.class}>
+                                <a href={item.url} target="_blank" className="nav-contact">
                                     <i className={item.icon}></i>
                                 </a>
                             )
@@ -29,7 +29,7 @@ class Navbar extends Component {
                         {Number.map((item, index) => {
                             return (
                                 <>
-                                    <a href={item.item} target="_blank" className={item.class}>
+                                    <a href={item.url} target="_blank" className="nav-contact">
                                         <i className={item.icon}></i>
                                     </a>
                                     <h2>{item.title}</h2>
