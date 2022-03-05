@@ -155,3 +155,15 @@ strong {
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .home {
+        justify-content: flex-start;
+    }
+    .react-icon.mobile {
+        margin-bottom: 50px;
+    }
+    .home-text p:nth-child(3) {
+        font-size: 20px;
+    }
+}
