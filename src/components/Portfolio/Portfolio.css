@@ -1,0 +1,65 @@
+.portfolio {
+    background: #000;
+    height: 260px;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+
+.portfolio-title {
+    color: #fff;
+}
+
+.portfolio-title h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.portfolio-title strong {
+    font-weight: 500;
+}
+
+.portfolio-title h2 {
+    color: #acacac;
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.portfolio-tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tool-btn {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool-btn:hover {
+    transform: scale(.94);
+    filter: brightness(80%);
+}
+
+.tool-btn i {
+    color: #fff;
+    font-size: 42px;
+}
+
+.tool-btn:nth-child(3) i {
+    background: #000;
+    color: #FFDF00;
+    font-size: 44px;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

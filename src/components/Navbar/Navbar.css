@@ -11,6 +11,11 @@ nav {
     justify-content: space-between;
     font-size: 24px;
     z-index: 15;
+    transition: .5s;
+}
+
+nav.on {
+    background: #000;
 }
 
 .nav-logo {
@@ -100,7 +105,7 @@ i {
 
 .sidebar {
     background: #000000ce;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
