@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.bccb85b0.css",
-    "main.js": "/static/js/main.b7ec647b.js",
+    "main.css": "/static/css/main.609a1f02.css",
+    "main.js": "/static/js/main.acdcb992.js",
     "static/media/background.mp4": "/static/media/background.65861429380b680303c5.mp4",
     "static/media/felipe.png": "/static/media/felipe.9bb46cf1b82f60c7ac3b.png",
+    "static/media/loja-virtual-puro.png": "/static/media/loja-virtual-puro.3569f28eefecf28025c7.png",
+    "static/media/landing-page-puro.png": "/static/media/landing-page-puro.ed0abe80a2b5b2e21b19.png",
+    "static/media/portfolio-puro.png": "/static/media/portfolio-puro.2658d023326191a2ef4c.png",
+    "static/media/formulario-login-puro.png": "/static/media/formulario-login-puro.1799a0f9feceb0645635.png",
+    "static/media/jogo-da-memoria-puro.png": "/static/media/jogo-da-memoria-puro.df45b5c87e9702f9e07f.png",
+    "static/media/jogo-da-velha-puro.png": "/static/media/jogo-da-velha-puro.fc6aa70e7d4847f5d1b4.png",
     "index.html": "/index.html",
-    "main.bccb85b0.css.map": "/static/css/main.bccb85b0.css.map",
-    "main.b7ec647b.js.map": "/static/js/main.b7ec647b.js.map"
+    "main.609a1f02.css.map": "/static/css/main.609a1f02.css.map",
+    "main.acdcb992.js.map": "/static/js/main.acdcb992.js.map"
   },
   "entrypoints": [
-    "static/css/main.bccb85b0.css",
-    "static/js/main.b7ec647b.js"
+    "static/css/main.609a1f02.css",
+    "static/js/main.acdcb992.js"
   ]
 }

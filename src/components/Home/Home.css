@@ -40,7 +40,7 @@
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    filter: brightness(40%) blur(1px);
+    filter: brightness(40%);
 }
 
 

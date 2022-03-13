@@ -15,7 +15,7 @@ const Home = () => {
             <div className="home-menu">
                 {Menu[0].map((item, index) => {
                     return (
-                        <a href={item.to} className="menu-item">{item.title}</a>
+                        <a key={index} href={item.to} className="menu-item">{item.title}</a>
                     )
                 })}
 
@@ -25,7 +25,7 @@ const Home = () => {
 
                 {Menu[1].map((item, index) => {
                     return (
-                        <a href={item.to} className="menu-item">{item.title}</a>
+                        <a key={index} href={item.to} className="menu-item">{item.title}</a>
                     )
                 })}
             </div>
