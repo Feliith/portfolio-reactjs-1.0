@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f154a5d4.css",
+    "main.css": "/static/css/main.475adfff.css",
     "main.js": "/static/js/main.0a200eda.js",
     "static/media/background.mp4": "/static/media/background.65861429380b680303c5.mp4",
     "static/media/felipe.png": "/static/media/felipe.9bb46cf1b82f60c7ac3b.png",
@@ -11,11 +11,11 @@
     "static/media/jogo-da-memoria-puro.png": "/static/media/jogo-da-memoria-puro.df45b5c87e9702f9e07f.png",
     "static/media/jogo-da-velha-puro.png": "/static/media/jogo-da-velha-puro.fc6aa70e7d4847f5d1b4.png",
     "index.html": "/index.html",
-    "main.f154a5d4.css.map": "/static/css/main.f154a5d4.css.map",
+    "main.475adfff.css.map": "/static/css/main.475adfff.css.map",
     "main.0a200eda.js.map": "/static/js/main.0a200eda.js.map"
   },
   "entrypoints": [
-    "static/css/main.f154a5d4.css",
+    "static/css/main.475adfff.css",
     "static/js/main.0a200eda.js"
   ]
 }
