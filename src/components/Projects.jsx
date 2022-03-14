@@ -4,7 +4,7 @@ const Projects = [
         title: 'Portfólio Puro',
         src: require('../images/projects/portfolio-puro.png'),
         url: 'https://portfolio-puro.netlify.app/',
-        code: '',
+        code: 'https://github.com/Feliith/portfolio-puro-2.0',
         id: 'html, css, js',
         icon: 'fa-brands fa-js-square'
     },
@@ -12,7 +12,7 @@ const Projects = [
         title: 'Landing Page Puro',
         src: require('../images/projects/landing-page-puro.png'),
         url: 'https://landing-page-puro.netlify.app/',
-        code: '',
+        code: 'https://github.com/Feliith/landing-page-puro-2.0',
         id: 'html, css, js',
         icon: 'fa-brands fa-js-square'
     },
@@ -20,7 +20,7 @@ const Projects = [
         title: 'Loja Virtual Puro',
         src: require('../images/projects/loja-virtual-puro.png'),
         url: 'https://loja-virtual-puro.netlify.app/',
-        code: '',
+        code: 'https://github.com/Feliith/loja-virtual-puro-2.0',
         id: 'html css js',
         icon: 'fa-brands fa-js-square'
     },
@@ -28,7 +28,7 @@ const Projects = [
         title: 'Formulário de LogIn Puro',
         src: require('../images/projects/formulario-login-puro.png'),
         url: 'https://formulario-de-login-puro.netlify.app/',
-        code: '',
+        code: 'https://github.com/Feliith/formulario-de-login-puro-1.0',
         id: 'html css js',
         icon: 'fa-brands fa-js-square'
     },
@@ -36,7 +36,7 @@ const Projects = [
         title: 'Jogo da Velha Puro',
         src: require('../images/projects/jogo-da-velha-puro.png'),
         url: 'https://jogo-da-velha-puro.netlify.app/',
-        code: '',
+        code: 'https://github.com/Feliith/jogo-da-velha-puro-1.0',
         id: 'html css js',
         icon: 'fa-brands fa-js-square'
     },
@@ -44,7 +44,7 @@ const Projects = [
         title: 'Jogo da Memória Puro',
         src: require('../images/projects/jogo-da-memoria-puro.png'),
         url: 'https://jogo-da-memoria-puro.netlify.app/',
-        code: '',
+        code: 'https://github.com/Feliith/jogo-da-memoria-puro-1.0',
         id: 'html css js',
         icon: 'fa-brands fa-js-square'
     }

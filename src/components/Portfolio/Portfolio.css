@@ -25,6 +25,7 @@
     font-size: 26px;
     font-weight: 300;
     margin-bottom: 40px;
+    opacity: 0;
 }
 
 .portfolio-tools {
@@ -103,10 +104,14 @@
 }
 
 @media screen and (min-width: 800px) {
+    .portfolio-tools {
+        padding: 0 16%;
+    }
+
     .project-wrap {
         position: relative;
         margin: 30px;
-    }
+    }g
     
     .project-image {
         max-width: 260px;
@@ -117,6 +122,8 @@
     .project-wrap h2 {
         font-size: 20px;
         font-weight: 400;
+        text-align: center;
+        width: 100%;
     }
 
     .project-inside {

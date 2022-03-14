@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { Social , Number } from '../Contacts'
+import Menu from '../Menu'
 
 const Navbar = () => {
 
@@ -53,9 +54,25 @@ const Navbar = () => {
                     <i className='fa fa-bars'/>
                 </div>
             </nav>
-            <div className={clicked ? 'sidebar' : 'sidebar hide'}>
-                <div className="side-close" onClick={handleClick}>
+            <div className={clicked ? 'sidebar' : 'sidebar hide'} onClick={handleClick}>
+                <div className="side-close">
                     <i className='fa fa-times'/>
+                </div>
+                <div className="side-menu">
+                    {Menu[0].map((item, index) => {
+                        return (
+                            <a href={item.to}>
+                                {item.title}
+                            </a>
+                        )
+                    })}
+                    {Menu[1].map((item, index) => {
+                        return (
+                            <a href={item.to}>
+                                {item.title}
+                            </a>
+                        )
+                    })}
                 </div>
             </div>
         </>
