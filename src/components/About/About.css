@@ -16,6 +16,10 @@
     padding: 40px;
 }
 
+.about-quote {
+    text-align: center;
+}
+
 .about i {
     color: #ff5b5b;
     position: absolute;
