@@ -47,6 +47,22 @@ const Projects = [
         code: 'https://github.com/Feliith/jogo-da-memoria-puro-1.0',
         id: 'html css js',
         icon: 'fa-brands fa-js-square'
+    },
+    {
+        title: 'Landing Page React',
+        src: require('../images/projects/landing-page-react.png'),
+        url: 'https://f-landing-page-react.netlify.app/',
+        code: 'https://github.com/Feliith/landing-page-react-1.0',
+        id: 'react',
+        icon: 'fa-brands fa-react'
+    },
+    {
+        title: 'Calculadora React',
+        src: require('../images/projects/calculadora-react.png'),
+        url: 'https://f-calculadora-react.netlify.app/',
+        code: 'https://github.com/Feliith/calculadora-react-1.0',
+        id: 'react',
+        icon: 'fa-brands fa-react'
     }
 ]
 
