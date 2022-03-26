@@ -5,7 +5,7 @@ const Projects = [
         src: require('../images/projects/portfolio-puro.png'),
         url: 'https://portfolio-puro.netlify.app/',
         code: 'https://github.com/Feliith/portfolio-puro-2.0',
-        id: 'html, css, js',
+        id: 'html css js',
         icon: 'fa-brands fa-js-square'
     },
     {

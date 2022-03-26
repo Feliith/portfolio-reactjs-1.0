@@ -1,6 +1,15 @@
 
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
 .tools-conteiner {
     background: #000;
+    width: 100%;
     height: 260px;
     padding-top: 80px;
     margin-bottom: 100px;
@@ -25,7 +34,6 @@
     font-size: 26px;
     font-weight: 300;
     margin-bottom: 40px;
-    opacity: 0;
 }
 
 .portfolio-tools {
@@ -51,6 +59,11 @@
     filter: brightness(80%);
 }
 
+.tool-btn.active {
+    transform: scale(.92);
+    filter: brightness(60%);
+}
+
 .tool-btn i {
     color: #fff;
     font-size: 42px;
@@ -70,12 +83,12 @@
 .projects-conteiner {
     width: 100%;
     min-height: 100px;
-    padding: 80px;
+    padding: 4%;
     padding-top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .project-inside a {
@@ -86,7 +99,7 @@
     line-height: 50px;
     font-size: 20px;
     font-weight: 400;
-    border-radius: 12px;
+    border-radius: 6px;
     transition: .3s;
 }
 
@@ -97,10 +110,6 @@
 
 .project-inside a i {
     color: #fff;
-    position: absolute;
-    left: 24px;
-    top: 14px;
-    font-size: 22px;
 }
 
 @media screen and (min-width: 800px) {
@@ -110,17 +119,17 @@
 
     .project-wrap {
         position: relative;
-        margin: 30px;
+        margin: 6%;
     }
     
     .project-image {
-        max-width: 260px;
+        max-width: 100%;
         border-radius: 8px;
         transition: .5s;
     }
     
     .project-wrap h2 {
-        font-size: 20px;
+        font-size: 1.1rem;
         font-weight: 400;
         text-align: center;
         width: 100%;
@@ -137,11 +146,10 @@
         top: 34px;
         left: 50%;
         transform: translateX(-50%);
-        font-size: 48px;
+        display: none;
     }
-    
     .project-inside a {
-        width: 86%;
+        width: 74%;
         height: 50px;
         position: absolute;
         bottom: 74px;
@@ -161,19 +169,62 @@
     .project-wrap:hover .project-inside {
         opacity: 1;
     }
+    .project-inside a i {
+        position: absolute;
+        left: 12px;
+        top: 14px;
+        font-size: 20px;
+    }
+    .project-inside a {
+        text-align: right;
+        padding-right: 12px;
+    }
+    .project-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
+
+@media screen and (min-width: 900px) {
+    .project-wrap {
+        margin: 10%;
+    }
+    .project-inside > i {
+        color: #fff;
+        position: absolute;
+        top: 34px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 48px;
+    }
+    .project-inside a i {
+        padding-right: 12px;
+        font-size: 22px;
+    }
+    .project-inside a {
+        text-align: center;
+    }
+}
+
+
 
 @media screen and (max-width: 800px) {
     .projects-conteiner {
         padding: 0;
         padding-bottom: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .project-wrap {
         background: #f7f7f7;
         width: 100%;
         height: 360px;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         justify-content: center;
         margin: 50px 0;
         padding: 32px 0;
@@ -209,6 +260,9 @@
     .project-inside > i {
         color: #000;
         font-size: 42px;
+    }
+    .project-inside a i {
+        padding-right: 12px;
     }
 }
 
