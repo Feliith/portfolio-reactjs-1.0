@@ -17,12 +17,13 @@ const Projects = [
         icon: 'fa-brands fa-js-square'
     },
     {
-        title: 'Loja Virtual Puro',
-        src: require('../images/projects/loja-virtual-puro.png'),
-        url: 'https://loja-virtual-puro.netlify.app/',
-        code: 'https://github.com/Feliith/loja-virtual-puro-2.0',
-        id: 'html css js',
-        icon: 'fa-brands fa-js-square'
+        title: 'Réplica Shopee React',
+        subtitle: '[ Em andamento ]',
+        src: require('../images/projects/replica-shopee-react.png'),
+        url: 'https://replica-shopee.netlify.app/',
+        code: 'https://github.com/Feliith/shopee-replica-react-1.0',
+        id: 'react',
+        icon: 'fa-brands fa-react'
     },
     {
         title: 'Formulário de LogIn Puro',

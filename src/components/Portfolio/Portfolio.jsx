@@ -50,6 +50,7 @@ class Portfolio extends Component {
                                     <div key={index} className="project-wrap">
                                         <img src={item.src} alt={item.title} className="project-image" />
                                         <h2>{item.title}</h2>
+                                        <h2>{item.subtitle}</h2>
                                         <div className="project-inside">
                                             <i className={item.icon}></i>
                                             <a href={item.code} target="_blank"><i className="fa fa-code"></i>Código</a>

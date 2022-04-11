@@ -112,6 +112,10 @@
     color: #fff;
 }
 
+.project-wrap > h2:nth-child(2) {
+    margin-top: 8px;
+}
+
 @media screen and (min-width: 800px) {
     .portfolio-tools {
         padding: 0 16%;
@@ -146,7 +150,6 @@
         top: 34px;
         left: 50%;
         transform: translateX(-50%);
-        display: none;
     }
     .project-inside a {
         width: 74%;
