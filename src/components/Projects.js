@@ -64,6 +64,14 @@ const Projects = [
         code: 'https://github.com/Feliith/calculadora-react-1.0',
         id: 'react',
         icon: 'fa-brands fa-react'
+    },
+    {
+        title: 'PokéDex React',
+        src: require('../images/projects/pokedex-react.png'),
+        url: 'https://f-pokedex-react.netlify.app/',
+        code: 'https://github.com/Feliith/pokedex-react-1.0',
+        id: 'react',
+        icon: 'fa-brands fa-react'
     }
 ]
 
