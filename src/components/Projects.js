@@ -18,7 +18,7 @@ const Projects = [
     },
     {
         title: 'Réplica Shopee React',
-        subtitle: '[ Em andamento ]',
+        subtitle: '[ Desktop ]',
         src: require('../images/projects/replica-shopee-react.png'),
         url: 'https://replica-shopee.netlify.app/',
         code: 'https://github.com/Feliith/shopee-replica-react-1.0',
